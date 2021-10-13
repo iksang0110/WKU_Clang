@@ -4,11 +4,10 @@
 //
 //  Created by 정익상 on 2021/10/13.
 //
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+/*#include <stdio.h>
+int main()
+{
+    printf("Hello, world");
+    
     return 0;
-}
+}*/
