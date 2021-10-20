@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA96CBEF2716B6AD005CD23F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AA96CBEE2716B6AD005CD23F /* main.c */; };
-		AA96CBFC2716BCA1005CD23F /* 배열.c in Sources */ = {isa = PBXBuildFile; fileRef = AA96CBFB2716BCA1005CD23F /* 배열.c */; };
+		AA121CC0271FED2C0001ADD9 /* study.c in Sources */ = {isa = PBXBuildFile; fileRef = AA121CBF271FED2C0001ADD9 /* study.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA121CBF271FED2C0001ADD9 /* study.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = study.c; sourceTree = "<group>"; };
 		AA96CBEB2716B6AD005CD23F /* Clang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Clang; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA96CBEE2716B6AD005CD23F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		AA96CBFB2716BCA1005CD23F /* 배열.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "배열.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +41,7 @@
 		AA96CBE22716B6AD005CD23F = {
 			isa = PBXGroup;
 			children = (
-				AA96CBF92716BC86005CD23F /* 배열과 문자열 */,
-				AA96CBED2716B6AD005CD23F /* Clang */,
+				AA121CBF271FED2C0001ADD9 /* study.c */,
 				AA96CBEC2716B6AD005CD23F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,23 +52,6 @@
 				AA96CBEB2716B6AD005CD23F /* Clang */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AA96CBED2716B6AD005CD23F /* Clang */ = {
-			isa = PBXGroup;
-			children = (
-				AA96CBEE2716B6AD005CD23F /* main.c */,
-			);
-			path = Clang;
-			sourceTree = "<group>";
-		};
-		AA96CBF92716BC86005CD23F /* 배열과 문자열 */ = {
-			isa = PBXGroup;
-			children = (
-				AA96CBFB2716BCA1005CD23F /* 배열.c */,
-			);
-			name = "배열과 문자열";
-			path = "배열과 문자열";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +111,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA96CBFC2716BCA1005CD23F /* 배열.c in Sources */,
-				AA96CBEF2716B6AD005CD23F /* main.c in Sources */,
+				AA121CC0271FED2C0001ADD9 /* study.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

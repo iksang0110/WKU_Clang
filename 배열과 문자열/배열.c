@@ -31,7 +31,7 @@ int main()
 
     return 0;
 }*/
-#변수의 자료형
+ /* #변수의 자료형
     정수형 변수
     실수형 변수
 
@@ -398,8 +398,8 @@ int **dptr;
     int *ptr=&num;
     int **dptr=&ptr;
 
-    *dptr=...    //*dptr은 포인터변수 ptr을 의미함
-    **dptr=...    //**dptr은 num을 의미함
+    *dptr=...    //dptr은 포인터변수 ptr을 의미함
+    **dptr=...    //dptr은 num을 의미함
  다중포인터의 필요성
   : 함수 내에서 함수 외부에 선언된 변수에 접근하는 방법을 제시해준다.
 
@@ -656,7 +656,6 @@ int main()
 #define CON(UP,LOW) UP ## 00 ## LOW
     int num = COM(22,77)    //220077
 
-        ##연산자는 매크로 함수의 전달인자를 다른 대상과 이어줄때 사용한다.
+        ##연산자는 매크로 함수의 전달인자를 다른 대상과 이어줄때 사용한다. */
 
 
-출처: https://kali-km.tistory.com/entry/C언어-요약정리 [Kali-KM_Security Study]
